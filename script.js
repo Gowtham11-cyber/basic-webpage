@@ -1,4 +1,3 @@
 function showMessage() {
-    alert("✅ JavaScript is working! Great job!");
-  }
-  
+  alert("🎉 Hello there! Keep coding and keep improving!");
+}
