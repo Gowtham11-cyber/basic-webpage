@@ -2,44 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Web Dev Journey</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Webpage</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>🚀 My Web Development Journey</h1>
-      <p>Learning HTML, CSS, and JavaScript step-by-step.</p>
-    </header>
 
-    <main>
-      <section class="about">
-        <h2>📚 About This Page</h2>
-        <p>This webpage is built as part of a coding competition to demonstrate my web development skills. It combines structure (HTML), design (CSS), and interactivity (JavaScript).</p>
-        <img src="web development.png" height="220pt" width="300pt" "Web Development Illustration" />
-      </section>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Welcome to Our Webpage</h1>
+    <p>Learn the basics of web development with HTML, CSS, and JavaScript.</p>
+  </header>
 
-      <section class="resources">
-        <h2>🔗 Useful Resources</h2>
-        <ul>
-          <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a></li>
-          <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-        </ul>
-      </section>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 
-      <section class="interaction">
-        <h2>🧪 Try JavaScript</h2>
-        <p>Click the button to see JavaScript in action!</p>
-        <button onclick="showMessage()">Click Me</button>
-      </section>
-    </main>
+  <!-- Content Section -->
+  <main class="main-content">
+    <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=800&q=60"
+         alt="Image error " />
+    
+    <h2>Why This Website?</h2>
+    <p>This is a demonstration of a simple & basic but well-designed website using some standard frontend web technologies.</p>
 
-    <footer>
-      <p>&copy; 2025 Web Dev Learner</p>
-    </footer>
-  </div>
+    <h3>Features:</h3>
+    <ul>
+      <li>Structured with HTML</li>
+      <li>Styled wiht CSS</li>
+      <li>Interactive JavaScript</li>
+    </ul><br>
+    <button onclick="showMessage()">Click for a Surprise</button>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; P Gowtham . All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
